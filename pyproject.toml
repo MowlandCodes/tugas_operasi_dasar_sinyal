@@ -1,0 +1,15 @@
+[project]
+name = "eksperimen-operasi-dasar-pada-sinyal"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.0",
+    "opencv-python>=4.13.0.92",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "pandas>=3.0.3",
+]
