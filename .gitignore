@@ -7,3 +7,12 @@ __pycache__
 *.db
 *.sqlite
 *.log
+/.opencode
+/AGENTS.md
+/graphify-out
+/report/laporan.aux
+/report/laporan.fdb_latexmk
+/report/laporan.fls
+/report/laporan.out
+/report/laporan.synctex.gz
+/report/laporan.tex
