@@ -3,6 +3,7 @@ name = "eksperimen-operasi-dasar-pada-sinyal"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "ipynbcompress>=0.5.0",
     "matplotlib>=3.11.0",
     "opencv-python>=4.13.0.92",
 ]
