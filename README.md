@@ -17,14 +17,21 @@ Proyek ini merupakan eksperimen akademik dalam ranah Pengolahan Sinyal Digital (
 ## Cara Menjalankan Notebook
 
 ```bash
+# Install UV jika belum ada
+# macOS and Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows (PowerShell)
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
 # Install dependencies
 uv sync
 
 # Jalankan notebook server
-uv run jupyter notebook
+uv run jupyter lab
 ```
 
-Buka file `notebook/operasi_sinyal_citra.ipynb` di browser dan jalankan seluruh sel secara berurutan.
+Buka file `notebook/operasi_sinyal_citra.ipynb` di browser dan jalankan seluruh sel secara berurutan, atau pilih menu `Kernel > Run All Cells`.
 
 Untuk eksekusi headless:
 ```bash
